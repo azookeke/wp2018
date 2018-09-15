@@ -1,0 +1,14 @@
+body{
+  background-image: url("image/azoo_landscape.jpg");
+}
+#namecard {
+  background-color: rgba(255, 99, 71, 0.6);
+  border: 2px solid red;
+}
+#namecard>h1{
+  color: black;
+  font-family: verdana;
+  font-size: 100%;
+  text-align: center;
+}
+
