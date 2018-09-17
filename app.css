@@ -3,12 +3,7 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-li {
-  display: block;
-  max-width: 50px;
-  margin: 0 auto;
-}
-nav.menu ul{
+#menu li{
   display: inline;
   border: 1px;
   margin-right: 25px;
