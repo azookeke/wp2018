@@ -8,10 +8,10 @@ li {
   max-width: 50px;
   margin: 0 auto;
 }
-nav.menu {
-  position: absolute;
-  top: 0px;
-  height: 500px;
+nav.menu ul{
+  display: inline;
+  border: 1px;
+  margin-right: 25px;
 }
 #azoo_selfie{
   float: left;
