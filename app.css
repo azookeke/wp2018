@@ -1,39 +1,90 @@
 * {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-#menu li{
-  display: inline;
-  border: 1px;
-  margin-right: 25px;
-}
-#azoo_selfie{
-  float: left;
-  width: 50%;
-}
-#top {
-  background-color: rgba(255, 99, 71, 0.6);
-  overflow: auto;
-  zoom: 1;
-  max-width: 500px;
-  border: 2px solid red;
-}
-#namecard{
-  background-image: url("https://i.imgur.com/Kwd4RxX.jpgy");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  }
-
-#top>h1 {
-  color: black;
-  font-family: verdana;
-  font-size: 100%;
-  text-align: center;
-}
-#top>span {
-  margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Viner Hand ITC", monospace;
 }
 
+body {
+    margin: 0px;
+}
+
+#sidebody {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+#logo {
+    position: fix;
+    
+}
+
+.main_section {
+    background-size: auto 100%;
+    width: 25%;
+    height: 700px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+
+.titleNumber {
+    position: relative;
+    top: 30%;
+    color: rgba(211, 0, 0, 0.65);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.titleSort {
+    position: relative;
+    top: 30%;
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+.titleDetail {
+    position: relative;
+    top: 30%;
+    height: 100px;
+    color: rgb(0, 109, 237);
+    font-size: 20px;
+    font-weight: 540;
+}
+
+.titleButton {
+    position: relative;
+    top: 200px;
+    background-color: rgba(255, 255, 255, 0.34);
+    border-radius: 10px;
+}
+
+#nth_1 {
+    background-image: url("web_image/woman_6.jpg");
+    background-position: 50%;
+}
+
+#nth_2 {
+    //background-image: url("web_image/man_2.jpg");
+    background-position: 75%;
+}
+
+#nth_3 {
+    //background-image: url("web_image/woman_4.jpg");
+    background-position: 50%;
+}
+
+#nth_4 {
+    //background-image: url("web_image/man_7.jpg");
+    background-position: 20%;
+}
+
+#footer {
+    clear: both;
+    background-color: #D3FFF3;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 80px;
+}
